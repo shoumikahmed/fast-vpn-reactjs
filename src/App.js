@@ -4,15 +4,17 @@ import './App.css';
 import Banner from './components/Home/Banner';
 import Navbar from './components/Header/Navbar';
 import WhyFastVpn from './components/Home/WhyFastVpn';
+import WorldMap from './components/Home/WorldMap';
+import ProtectIdentity from './components/Home/ProtectIdentity';
 
 function App() {
   return (
     <div className='bg-[#05193D]'>
       <Navbar></Navbar>
-      <Routes>
-        <Route path='/' element={<Banner></Banner>}></Route>
-        <Route path='WhyFastVpn' element={<WhyFastVpn></WhyFastVpn>}></Route>
-      </Routes>
+      <Banner></Banner>
+      <WhyFastVpn></WhyFastVpn>
+      <WorldMap></WorldMap>
+      <ProtectIdentity></ProtectIdentity>
     </div>
   );
 }
