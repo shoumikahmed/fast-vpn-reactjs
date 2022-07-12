@@ -31,7 +31,7 @@ const Card = () => {
                             <p className='text-[#CCD9F1] mb-2'>Add Free Experience</p>
                             <p className='text-[#CCD9F1] mb-2'>37 Virttual Locations</p>
                             <p className='text-[#CCD9F1] '>Upto 5 Devices</p>
-                            <button class="bg-transparent hover:bg-blue-500 text-blue-400 mt-8 font-semibold hover:text-white py-2 px-4 lg:px-8 border border-blue-400 hover:border-transparent rounded">
+                            <button class="bg-transparent hover:bg-blue-500 text-blue-400 mt-8 font-semibold hover:text-white py-2 px-4 lg:px-8 border border-blue-400 hover:border-transparent rounded-lg">
                                 Get Started
                             </button>
                         </div>
