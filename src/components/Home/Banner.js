@@ -4,11 +4,11 @@ import arrowBack from '../../assets/arrow_back.png'
 
 const Banner = () => {
     return (
-        <section className='lg:flex justify-around items-center'>
-            <div>
+        <section className=' lg:flex justify-around items-center pl-4'>
+            <div className=''>
                 <img src={banner1} alt="" />
             </div>
-            <div className='p-10'>
+            <div className='p-104'>
                 <h1 className='text-4xl mt-10 lg:text-5xl  font-bold text-white'>Fast, Secure,</h1>
                 <h1 className='text-4xl lg:text-5xl font-bold text-white'>Smart VPN</h1>
                 <p className=' text-[#CCD9F1]'>Maximum security, minimul cost.FastVPN is a top</p>

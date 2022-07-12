@@ -6,6 +6,7 @@ import Navbar from './components/Header/Navbar';
 import WhyFastVpn from './components/Home/WhyFastVpn';
 import WorldMap from './components/Home/WorldMap';
 import ProtectIdentity from './components/Home/ProtectIdentity';
+import Card from './components/Home/Card';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <WhyFastVpn></WhyFastVpn>
       <WorldMap></WorldMap>
       <ProtectIdentity></ProtectIdentity>
+      <Card></Card>
     </div>
   );
 }
