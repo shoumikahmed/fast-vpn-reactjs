@@ -18,7 +18,7 @@ const Card = () => {
                         <p className='text-[#CCD9F1] mb-2'>37 Virttual Locations</p>
                         <p className='text-[#CCD9F1] '>Upto 5 Devices</p>
                     </div>
-                    <div className='px-20 py-16  bg-[#ccd9f124] rounded-lg ml-5'>
+                    <div className='px-16 py-16  bg-[#ccd9f124] rounded-lg ml-5'>
                         <span class="inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-600 text-white rounded-b-xl bottom-16 ml-32 relative">Save 40%</span>
                         <div>
                             <h1 className='text-[#CCD9F1] text-xl tracking-wide font-semibold'>Y e a r l y</h1>

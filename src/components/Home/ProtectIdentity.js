@@ -4,7 +4,7 @@ import woman from '../../assets/woman.png'
 const ProtectIdentity = () => {
     return (
         <section className='p-20 '>
-            <div className='flex justify-center items-center mt-20 bg-[#ccd9f124] rounded-lg'>
+            <div className='flex justify-center items-center mt-20 bg-[#ccd9f124] rounded-xl'>
                 <div className='flex-1 text-white p-16'>
                     <h3 className='text-4xl mt-10 lg:text-4xl my-8 font-bold text-white'>Protect Your Identity</h3>
                     <p className='my-8 text-[#CCD9F1]'>It was a humorously perilous business for both of us. For, before we proceed further, it must be said that the monkey-rope was fast</p>
